@@ -25,12 +25,16 @@ Prints prediction using the model and the image from "image_name" as input.
 Example input/output:
 
 Input:
+
 ` bird.py test .\test_images\test_seagull.jpg `
 
 Output:
+
 ```
 1/1 [==============================] - 0s 367ms/step
 [[ 0.64453435 -3.483947    0.46864077 -0.98530567  4.7151265   0.18946311
    2.1591187 ]]
 Seagull
 ```
+
+So we've successfully predicted the seagull image as being a seagull!
