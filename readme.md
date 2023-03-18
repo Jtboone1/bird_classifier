@@ -20,9 +20,9 @@ Saves to the working directory as "my_model.h5".
 
 -------------------------------------------------------------------------------------
 
-` python bird.py test "Image/Path" `
+` python bird.py test |Image Path| `
 
-Prints prediction using the model and the image from "image_name" as input.
+Prints prediction using the model and the image at "Image Path" as input.
 
 Example input/output:
 
