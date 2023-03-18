@@ -18,6 +18,8 @@ Usages:
 Creates the CNN for the bird image classifier using the nl_birds dataset.
 Saves to the working directory as "my_model.h5".
 
+-------------------------------------------------------------------------------------
+
 ` python bird.py test "Image/Path" `
 
 Prints prediction using the model and the image from "image_name" as input.
@@ -38,3 +40,5 @@ Seagull
 ```
 
 So we've successfully predicted the seagull image as being a seagull!
+
+-------------------------------------------------------------------------------------
