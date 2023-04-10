@@ -3,7 +3,6 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-#import tensorflow_datasets as tfds
 import pathlib
 
 from PIL import Image
@@ -23,7 +22,7 @@ img_width = 180
 
 
 def create_model():
-    data_dir = pathlib.Path("C:\\Users\\Bethany\\Documents\\School\\Comp 4301\\bird_classifier-main\\nl_birds")
+    data_dir = pathlib.Path(".\\nl_birds")
 
     train_ds = tf.keras.utils.image_dataset_from_directory(
         data_dir,
